@@ -29,8 +29,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('server', function() {
-
-  browsersync({
+  browsersync.create().init({
       server: {
           baseDir: "dist"
       },
