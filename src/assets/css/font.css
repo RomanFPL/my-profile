@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('../font/FrederickatheGreat-Regular.ttf') format('ttf');
+    font-weight: 500;
+    font-style: cursive;
+}
+
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('../font/FrederickatheGreat-Regular.ttf') format('ttf');
+    font-weight: 500;
+    font-style: cursive;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
