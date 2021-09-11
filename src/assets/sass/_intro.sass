@@ -1,5 +1,4 @@
 .intro
-    height: 100vh
     background: rgb(174,239,255)
     background: linear-gradient(173deg, rgba(174,239,255,1) 0%, rgba(129,235,255,1) 47%, rgba(230,235,255,1) 100%)
     .wrap-abbr-panel
@@ -21,7 +20,10 @@
             h2
                 font-size: 48px
                 font-weight: 500
-                margin-bottom: 20px
+                margin-bottom: 10px
+                display: block
+                height: 47.5px
+                line-height: 48px
             p
                 font-size: 32px
                 font-family: "Fredericka the Great"
@@ -37,6 +39,10 @@
                 animation-duration: 15s
                 animation-iteration-count: infinite
                 filter: blur(8px)
+                .st0 .st1
+                    fill: none
+                    stroke: #0000FF !important
+                    stroke-miterlimit: 10 !important
                 @keyframes svg-rotate
                     0%
                         transform: rotate(0deg)
