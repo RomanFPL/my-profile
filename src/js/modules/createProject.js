@@ -9,17 +9,18 @@ export default class CreateProject {
         newProject.classList.add("wrap-prjects");
         newProject.innerHTML = `
                <div class="description">
-                    <h3>Example 1</h3>
+                    <h3>${this.propObj.name}</h3>
                     <h4>Description</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi animi magni totam aspernatur veniam voluptatibus corporis at sequi. Eius sequi quas id quasi, eligendi possimus alias veritatis.
-                    </p>
+                    <p>${this.propObj.descMain}</p>
+                    ${this.propObj.addFields && this.propObj.addFields.map( field => `<h3>${field.name}</h3><p>${field.desc}</p>`).join("")}
+                    <p><span>You can see code example at this <a href=${this.propObj.gitLink} target="_blank" rel="noopener noreferrer">git repo</a></span></p>
                 </div>
                 <div class="presentation">
                     <div class="img-project">
-                        <img src="./assets/img/no-photo.jpeg"  alt="">
+                        <img src=${this.propObj.imgPath}  alt="">
                         <div class="border-around"></div>
                     </div>
-                    <a  class="go-to" href="#"><img src="./assets/icons/arrow.svg"  alt="arrow"></a>  
+                    <a  class="go-to" href=${this.propObj.projectLocation}><img src="./assets/icons/arrow.svg"  alt="arrow"></a>  
                 </div>`
         console.log(this.propObj)
         this.parent.append(newProject);

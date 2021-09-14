@@ -14,7 +14,19 @@ const projObj = {
     id: 1,
     name: "Something",
     descMain: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi animi magni totam aspernatur veniam voluptatibus corporis at sequi. Eius sequi quas id quasi, eligendi possimus alias veritatis.",
-    imgPath: "./assets/img/no-photo.jpeg"
+    imgPath: "./assets/img/no-photo.jpeg",
+    projectLocation: "#",
+    gitLink: "https://github.com/",
+    addFields: [
+        {
+        name: "Technologies",
+        desc: "html, sass"
+        },
+        {
+        name: "Somethig important",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur "
+        }
+    ]
 }
 
 

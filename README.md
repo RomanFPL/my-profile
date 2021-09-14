@@ -28,3 +28,23 @@ Menu Sticky → Simulate behavior of position sticky with JS.
 
 
 Globe → It is js scrip for animating background. 
+
+
+CreateProject → class that adds new projects. It contains only one method - render. 
+
+Class constructor get next properties:
+
+parent = Parent selector.
+
+propObj = Object with next structure.
+
+id: number
+
+name: str
+
+descMain: long str
+
+imgPath, projectLocation, gitLink:  path with "..."
+
+addFields: is optional, and get arr of obj with {name: str, desc}
+
