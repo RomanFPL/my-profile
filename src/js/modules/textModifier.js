@@ -1,4 +1,4 @@
-const writeGreetingText = (elem, words, typeTime=100, eraseTime=100, startEraseTime=1500) => {
+const writeGreetingText = (elem, words, scrolIfEnd, typeTime=100, eraseTime=100, startEraseTime=1500) => {
     const target = document.querySelector(elem);
     let i = target.innerHTML.length;
     let curentWord = 0;
@@ -15,7 +15,7 @@ const writeGreetingText = (elem, words, typeTime=100, eraseTime=100, startEraseT
                         curentWord++;
                     } else {
                         target.innerHTML = target.innerHTML.slice(0,-1);
-                        document.getElementById('s-works').scrollIntoView({
+                        scrolIfEnd && document.getElementById(sectionToScroll).scrollIntoView({
                             behavior: 'smooth'
                         });
                     }

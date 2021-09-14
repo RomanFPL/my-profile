@@ -20,6 +20,16 @@ nav
         position: relative
         li
             list-style-type: none
+            &.menu-info
+                width: 300px
+                overflow: hidden
+                transition: all 1s ease-in-out
+                .content-menu-info
+                    width: max-content
+            &.hide-info
+                width: 0
+                overflow: hidden
+                transition: all 1s ease-in-out
             &.center-pop-li
                 position: absolute
                 flex-direction: row

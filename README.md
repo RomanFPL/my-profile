@@ -1,36 +1,26 @@
 # Started build for landing page
-⚙️ Start  structure for webdev with gulp 4
+✨📋 // My portfolio 
+It is place where you can explore my projects and find my bio.
 
-comand "gulp" starts creation of folder dist.
+
+Tecnical part about methods.
+Text modifier → Create text typing effect (Only for text nodes).
 
 
-to copy this stucture write → git clone https://github.com/RomanFPL/webdev-landing-build.git
+It obtaines next sequence of arguments:
 
-Structure is 
+elem  => Query selector to the text node of element to change.
 
-───src
+words => Array of words to type.
 
-    ├───assets
-    
-    │   ├───css
-    
-    │   ├───font
-    
-    │   ├───icons
-    
-    │   ├───img
-    
-    │   └───sass
-    
-    └───js
-    
-    └───modules
-      
- All content of assets is moved to dist folder that has the same structure as src folder
- 
- Webpack is used to create script.js that is stored in dist folder after modifing by webpack.
- Sass|scss is compiled in style.min.css and then stored in src/css and dist/css.
- You should write html without using pug. This is native configuration for html.
- 
- BrowserSynk is used in configuration with tunel. That means that you can open you curent project by url.
+scrolIfEnd => Bool | Switch on/off scroling if all words ware typed.
 
+sectionToScroll => Query selector to section to scroll to.
+
+typeTime = 100 
+
+eraseTime = 100
+
+startEraseTime = 1500
+
+Menu Sticky → Simulate behavior of position sticky with JS.
