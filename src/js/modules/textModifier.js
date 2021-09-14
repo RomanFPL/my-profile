@@ -1,4 +1,4 @@
-const writeGreetingText = (elem, words, scrolIfEnd, typeTime=100, eraseTime=100, startEraseTime=1500) => {
+const writeGreetingText = (elem, words, scrolIfEnd, sectionToScroll, typeTime=100, eraseTime=100, startEraseTime=1500) => {
     const target = document.querySelector(elem);
     let i = target.innerHTML.length;
     let curentWord = 0;

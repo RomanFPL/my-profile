@@ -23,4 +23,8 @@ eraseTime = 100
 
 startEraseTime = 1500
 
+
 Menu Sticky → Simulate behavior of position sticky with JS.
+
+
+Globe → It is js scrip for animating background. 

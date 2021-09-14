@@ -1,0 +1,129 @@
+.works
+    background: rgb(174,255,246)
+    background: linear-gradient(173deg, rgba(174,255,246,1) 0%, rgba(127,236,140,1) 69%, rgba(85,255,176,1) 100%)
+    padding: 50px 0
+
+.galery 
+    h2
+        font-size: 32px
+    h3, h4
+        margin: 10px 10px 10px 25px
+    p
+        text-indent: 25px
+
+.wrap-prjects 
+    min-height: 40vh
+    height: max-content
+    padding: 20px 0
+    border-bottom: solid 2px #FFFFFF
+    display: flex
+    &:last-child
+        border-bottom: none
+
+.description
+    box-sizing: border-box
+    width: 50%
+    padding: 10px
+
+.presentation 
+    @extend .description
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+
+    .img-project
+        position: relative
+        z-index: 2
+        margin: 0 0 0 3%
+        width: 320px
+        height: 180px
+        img
+            object-fit: cover
+            width: 100%
+            height: 100%
+            box-shadow: 10px 10px 25px #ffffff9a
+
+    .border-around 
+        position: absolute
+        border: solid 2px white
+        top: 8px
+        left: 18px
+        width: 320px
+        height: 180px
+        z-index: -1
+        box-sizing: border-box
+        transition: all 1s ease-in-out
+
+    .go-to 
+        position: absolute
+        right: 25px
+        margin: 0 2% 0 0
+        transition: all 1s
+        cursor: pointer
+        &:hover        
+            margin: 0 0 0 2%
+            transition: all 1s
+
+// .imgworks img, .img-project img 
+//     position: relative
+//     z-index: 2
+//     margin: 0 0 0 3%
+//     width: 320px
+//     height: 180px
+//     object-fit: cover
+//     box-shadow: 10px 10px 22px #FFFFFF44
+
+
+// .imgworks,  .img-project
+//     position: relative
+//     margin: 0 0 0 3%
+//     width: 320px
+//     height: 180px
+//     object-fit: cover
+//     cursor: pointer
+
+
+// .imgworks:last-child 
+//     padding-right: 3%
+
+
+
+
+
+
+// .imgworks:hover .border-around,  .img-project:hover .border-around
+//     transform: rotate(3deg)
+//     transition: all 1s
+
+
+
+
+
+
+// .description h4, h3, p 
+//     margin-bottom: 15px
+//     text-align: justify
+
+
+// .description, .presentation 
+//     box-sizing: border-box
+//     width: 50%
+//     padding: 10px
+
+
+// .presentation 
+//     display: flex
+//     justify-content: center
+//     align-items: center
+//     position: relative
+//     .go-to 
+//         position: absolute
+//         right: 15px
+//         bottom: 15px
+//         margin: 0 2% 0 0
+//         transition: all 1s
+//         cursor: pointer
+//         &:hover        
+//             margin: 0 0 0 2%
+//             transition: all 1s
