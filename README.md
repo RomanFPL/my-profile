@@ -1,5 +1,4 @@
-# Started build for landing page
-✨📋 // My portfolio 
+# ✨📋 // My portfolio 
 It is place where you can explore my projects and find my bio.
 
 
