@@ -31,3 +31,7 @@ const projObj = {
 
 
 new CreateProject(".galery", projObj).render();
+
+const mainSwitcher = document.querySelector('.main-switch-bar').querySelectorAll('li');
+console.log(mainSwitcher);
+mainSwitcher.forEach(item => item.addEventListener('click', () => console.log('hi')))

@@ -22,7 +22,6 @@ export default class CreateProject {
                     </div>
                     <a  class="go-to" href=${this.propObj.projectLocation}><img src="./assets/icons/arrow.svg"  alt="arrow"></a>  
                 </div>`
-        console.log(this.propObj)
         this.parent.append(newProject);
     }
 }
